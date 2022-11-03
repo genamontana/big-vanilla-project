@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {sum} from './03-function/03';
 //import {splitIntoWords} from './01-hello-tests/01';
 
 //Первое занятие по JS Native c Димычем
@@ -10,6 +11,9 @@ import reportWebVitals from './reportWebVitals';
 const result = splitIntoWords(sentense)
 console.log(result)*/
 
+
+//Третье занятие с Димычем Функции
+var a = sum;
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
