@@ -1,4 +1,4 @@
-import {mult, splitIntoWords, sum} from './01';
+import {multi, splitIntoWords, sum} from './01';
 
 
 let a: number;
@@ -33,8 +33,8 @@ test('multiply should be correct', () => {
     const c=3;*/
 
     //ACTION действие которое мы выполняем
-    const result1 = mult(a, b)
-    const result2 = mult(b, c)
+    const result1 = multi(a, b)
+    const result2 = multi(b, c)
 
     //EXPERT RESULT ожидаем результат
     expect(result1).toBe(2);
