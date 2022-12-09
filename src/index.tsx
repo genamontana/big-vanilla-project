@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {sum} from './03-function/03';
+//import {sum} from './03-function/03';
+import {User} from './06-callback,onClick,onChange,onBlur/06-callbacks';
 //import {splitIntoWords} from './01-hello-tests/01';
 
 //Первое занятие по JS Native c Димычем
@@ -13,14 +14,14 @@ console.log(result)*/
 
 
 //Третье занятие с Димычем Функции
-var a = sum;
+//var a = sum;
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <User />
   </React.StrictMode>
 );
 
